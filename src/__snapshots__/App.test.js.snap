@@ -1,0 +1,352 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    autoComplete="off"
+    className="d-flex"
+  >
+    <form
+      className="room card p-2 m-3"
+      disabled={true}
+    >
+      <div
+        className="room-header text-left mb-3 font-weight-bold"
+      >
+        Room 1
+      </div>
+      <fieldset
+        disabled={false}
+      >
+        <div
+          className="p-3 room-body"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Adults 
+              <br />
+              (18+)
+            </label>
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Children
+              <br />
+               (0-17)
+            </label>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={0}
+              >
+                0
+              </option>
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <form
+      className="room card p-2 m-3"
+      disabled={true}
+    >
+      <div
+        className="room-header text-left mb-3 font-weight-bold"
+      >
+        <input
+          checked={false}
+          className="mx-2 room-check-box"
+          onChange={[Function]}
+          type="checkbox"
+          value="2"
+        />
+        Room 2
+      </div>
+      <fieldset
+        disabled={true}
+      >
+        <div
+          className="p-3 undefined"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Adults 
+              <br />
+              (18+)
+            </label>
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Children
+              <br />
+               (0-17)
+            </label>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={0}
+              >
+                0
+              </option>
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <form
+      className="room card p-2 m-3"
+      disabled={true}
+    >
+      <div
+        className="room-header text-left mb-3 font-weight-bold"
+      >
+        <input
+          checked={false}
+          className="mx-2 room-check-box"
+          onChange={[Function]}
+          type="checkbox"
+          value="3"
+        />
+        Room 3
+      </div>
+      <fieldset
+        disabled={true}
+      >
+        <div
+          className="p-3 undefined"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Adults 
+              <br />
+              (18+)
+            </label>
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Children
+              <br />
+               (0-17)
+            </label>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={0}
+              >
+                0
+              </option>
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+    <form
+      className="room card p-2 m-3"
+      disabled={true}
+    >
+      <div
+        className="room-header text-left mb-3 font-weight-bold"
+      >
+        <input
+          checked={false}
+          className="mx-2 room-check-box"
+          onChange={[Function]}
+          type="checkbox"
+          value="4"
+        />
+        Room 4
+      </div>
+      <fieldset
+        disabled={true}
+      >
+        <div
+          className="p-3 undefined"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Adults 
+              <br />
+              (18+)
+            </label>
+            <label
+              className="mx-3"
+              htmlFor="age-simple"
+            >
+              Children
+              <br />
+               (0-17)
+            </label>
+          </div>
+          <div
+            className="d-flex justify-content-between"
+          >
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+            <select
+              className="mx-3"
+              onChange={[Function]}
+            >
+              <option
+                value={0}
+              >
+                0
+              </option>
+              <option
+                value={1}
+              >
+                1
+              </option>
+              <option
+                value={2}
+              >
+                2
+              </option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <div
+    className="float-left mx-5"
+  >
+    <input
+      id="btnSubmit"
+      onClick={[Function]}
+      type="button"
+      value="Submit"
+    />
+  </div>
+</div>
+`;

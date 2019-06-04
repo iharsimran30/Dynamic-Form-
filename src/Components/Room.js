@@ -8,7 +8,7 @@ const Room = (props) => {
       <div className="room-header text-left mb-3 font-weight-bold">
         {!props.hideCheckbox && (
           <input type="checkbox"
-            className="mx-2"
+            className="mx-2 room-check-box"
             checked={props.checked}
             onChange={props.onHandleChange(props.RoomNo)}
             value={props.RoomNo}
@@ -26,8 +26,8 @@ const Room = (props) => {
           <div className="d-flex justify-content-between">
             <select
               className="mx-3"
-              value={props.Adults.find(a=> a==props.adult)}
-              onChange={props.onHandleDropDown('adult',props.RoomNo)}>
+              value={props.Adults.find(a => a == props.adult)}
+              onChange={props.onHandleDropDown('adult', props.RoomNo)}>
               {props.Adults.map(a => {
                 return (<option key={a} value={a}>{a}</option>)
               })}
@@ -35,8 +35,8 @@ const Room = (props) => {
 
             <select
               className="mx-3"
-              value={props.Children.find(a=> a==props.child)}
-              onChange={props.onHandleDropDown('child',props.RoomNo)}>
+              value={props.Children.find(a => a == props.child)}
+              onChange={props.onHandleDropDown('child', props.RoomNo)}>
               {props.Children.map(c => {
                 return (<option key={c} value={c}>{c}</option>)
               })}
