@@ -16,7 +16,7 @@ function App() {
   const onHandleDropDown = (name, rNo) => event => {
     const roomIndex = roomData.findIndex(r => r.RoomNo === rNo);
     roomData[roomIndex] = { ...roomData[roomIndex], [name]: event.target.value };
-    setRoomData([...roomData]);
+    setRoomData([...roomData]); 
   };
 
   const getRoom = ({ checked, r }) => {
@@ -25,7 +25,7 @@ function App() {
       checked: checked,
       bodyClass: checked ? "room-body" : "",
       disabled: !checked,
-      adult: !checked ? "0" : r.adult,
+      adult: !checked ? "1" : r.adult,
       child: !checked ? "0" : r.child
     }
   }
@@ -40,7 +40,7 @@ function App() {
       }
       return rooms[idx];
     });
-    setRoomData([...rooms]);
+   setRoomData([...rooms]); 
   }
 
   return (
@@ -54,7 +54,7 @@ function App() {
 
       </div>
       <div className="float-left mx-5">
-        <input id="btnSubmit" type="button" value="Submit" onClick={() => onSubmit()} />
+        <input id="btnSubmit" type="button" value="Submit" onClick={() => onSubmit()} /> 
       </div>
 
     </div>
