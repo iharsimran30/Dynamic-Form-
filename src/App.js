@@ -23,7 +23,7 @@ function App() {
     return {
       ...r,
       checked: checked,
-      bodyClass: checked ? "room-body" : "",
+      bodyClass: checked ,
       disabled: !checked,
       adult: !checked ? "1" : r.adult,
       child: !checked ? "0" : r.child
@@ -46,8 +46,9 @@ function App() {
   return (
     <div className="App">
       <div className="d-flex" autoComplete="off">
-        {roomData.map((room, idx) => {
+        {roomData.map((room, index) => {
           return <Room {...room} key={room.RoomNo}
+            index={index}
             onHandleChange={onHandleChange}
             onHandleDropDown={onHandleDropDown} />
         })}

@@ -7,7 +7,7 @@
         "Children":[0,1,2],
         "disabled": false,
         "hideCheckbox":true,
-        "bodyClass":"room-body"
+        "bodyClass":true
     },
     {
     "title":"Room 2",
